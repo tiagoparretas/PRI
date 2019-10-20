@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/Tiago/Desktop/PRI/pr_oficial.dtd">
+<pr>
+    <meta>
+        <keyname>PRI-TPC3</keyname>
+        <title>Stylesheets</title>
+        <subtitle>TP3 da UC PRI do perfil de PLC 19/20</subtitle>
+        <bdate>2019-10-10</bdate>
+        <edate>2019-10-19</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A61032</identifier>
+            <name>Tiago Filipe Pereira</name>
+            <email>a61032@alunos.uminho.pt</email>
+        </member>
+    </workteam>
+    <abstract>
+        <p>
+            Na <i>UC</i> de <b>PRI</b> foram nos facultadas tecnicas para associar  
+            <i>stylesheets</i> a ficheiros <b>XML</b>, tendo como objectivo a realização deste TPC.
+        </p>
+        <p>
+            Neste projecto foi nos proposto a realização de um modelo de <i>project record</i>, e a sua respectiva 
+            extenção <b>XLS</b> com o objectivo de modelar a página e construir algo visualmente mais apelativo.
+        </p>
+        <p>
+            Na segunda parte deste projecto também nos foi proposto que realizassemos  uma  <i>stylesheet</i>
+            sobre arqueossítios.
+            Objectivo esse que seria organização desse dataset num indice, onde por cada entrada existe uma pagina 
+            <b>HTML</b> associada com a informação dependente.
+        </p>
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/tiagoparretas/PRI">Github</deliverable>
+        <deliverable path="https://github.com/tiagoparretas/PRI">Project Record</deliverable>
+        <deliverable path="https://github.com/tiagoparretas/PRI">Project Record HTML</deliverable>
+        <deliverable path="https://github.com/tiagoparretas/PRI">DTD Project Record</deliverable>
+        <deliverable path="https://github.com/tiagoparretas/PRI">Stylesheet Arqueossítios</deliverable> 
+        <deliverable path="https://github.com/tiagoparretas/PRI">Website</deliverable>
+    </deliverables>
+</pr>
