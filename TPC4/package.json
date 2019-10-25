@@ -1,0 +1,15 @@
+{
+  "name": "tpc4",
+  "version": "1.0.0",
+  "description": "TPC4 de PRI",
+  "main": "musica.js",
+  "scripts": {
+    "start": "node musica"
+  },
+  "author": "Tiago Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "nodejs": "0.0.0"
+  }
+}
