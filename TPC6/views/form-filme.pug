@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Inserção de um Filme
+    form.w3-container(action="/filmes" method="post")
+        label Título:
+        input.w3-input(type="text" name="titulo")
+        label Ano:
+        input.w3-input(type="text" name="ano")
+        label Elenco:
+        input.w3-input(type="text" name="elenco")
+        input.w3-input(type="text" name="elenco")
+        input.w3-input(type="text" name="elenco")
+        input.w3-input(type="text" name="elenco")
+        input.w3-input(type="text" name="elenco")
+        label Categorias
+        input.w3-input(type="text" name="categorias")
+        input.w3-input(type="text" name="categorias")
+        input.w3-input(type="text" name="categorias")
+        input.w3-input(type="text" name="categorias")
+        input.w3-input(type="text" name="categorias")
+        input.w3-input(type="submit" value="Enviar")
