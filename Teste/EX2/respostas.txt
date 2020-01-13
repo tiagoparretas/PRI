@@ -1,0 +1,11 @@
+1) 
+- 75 topologias. O resultado está no ficheiro "pergunta1.json"
+
+2)
+- 5 entidade pertence ao tipo tip_FSS. O resultado está no ficheiro "pergunta2.json"
+
+3)
+- 4
+
+4)
+- 2 tipologias pertencem à entidade. O resulta está no ficheiro "pergunta4.json"
