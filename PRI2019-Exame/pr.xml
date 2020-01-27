@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <keyname>PRI_TESTE</keyname>
+        <title>Exame da UC de Processamento e Representação de Informação</title>
+        <subtitle>Perfil de PLC 2019/2020</subtitle>
+        <bdate>2020-01-27</bdate>
+        <edate>2020-01-27</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+            <email>jcr@di.uminho.pt</email>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <name>Tiago Filipe Pereira</name>
+            <identifier>A61032</identifier>
+            <email>a61032@alunos.uminho.pt</email>
+
+        </member>
+    </workteam>
+    <abstract>
+        
+        <p>
+            O primeiro exercício do teste consistia em definir uma <b>API</b> de dados para uma coleção de publicações. O primeiro passo foi importar estes dados para o <b>MongoDB</b>. Para isso, foi necessário resolver problemas de <i>encoding</i> do ficheiro, através da conversão para <b>XML</b>(https://www.freeformatter.com/json-to-xml-converter.html#ad-output) e consequente conversão para <b>JSON</b>(https://www.convertjson.com/xml-to-json.htm). Para fazer a importação, foi utilizado o comando <b>mongoimport --db musical --collection musical --file musical.json</b>
+        </p>
+        
+        <p>
+            Após ter o servidor <b>Mongo</b> a correr, é necessário instalar os componentes do servidor com o comando <b>npm i</b>. Feito isto, apenas é necessário correr o mesmo com <b>npm start</b>, sendo que o servidor ficará à escuta na porta <b>3000</b>.
+            Dito isto, de modo a dar respostas às rotas pedidas, foi necessário definir um modelo e vários controladores para os dados. 
+        </p>
+        
+        <p>
+            No que toca ao segundo exercício, foi dividido em duas partes. A primeira consistia em responder a questões e a segunda em definir um servidor de interface para a API fornecida. Assim, tenham-se, em seguida, as questões e respetivas respostas.
+        </p>
+        
+        <p>
+            Questões:
+        </p>
+        
+        <p>
+            Quantos Diplomas Legislativos estão catalogados? São 1624 diplomas catalogados (ficheiro respostas1.json na pasta do ex2). 
+        </p>
+        <p>
+            Quantos diplomas do tipo "Portaria" estão catalogados? São 324 diplomas catalogados do tipo Portaria
+        </p>
+        <p>
+            Que processos são regulados pelo diploma "Lei 9/2009"?  São 3. (ficheiro resposta3.json na pasta do ex2). 
+        </p>
+        <p>
+            Que diplomas legislativos estão associados ao processo "c300.10.005"? Pelo site podemos ver que os diplomas associados: 104/2011, 149/2012, 18/2008 e 4/2015.
+        </p>
+        
+        <p>
+            No que toca ao servidor de interface, foi utilizado o módulo <b>axios</b>, permitindo fazer questões à API de forma simples.
+        </p>
+
+        
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/tiagoparretas/PRI">Github</deliverable>     
+    </deliverables>
+</pr>

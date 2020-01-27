@@ -1,0 +1,37 @@
+extends layout
+block content
+  .w3-card-4
+    header.w3-container.w3-blue-grey
+      h1 
+        b  #{leg.id}
+  .w3-card-4.w3-margin-top
+    .w3-large.w3-padding-small
+        p <b>Data:</b> 
+          =leg.data
+        p <b>Sumário:</b> 
+          =leg.sumario
+        p <b>Link:</b> 
+          =leg.link
+        p <b>Estado:</b> 
+          =leg.estado
+        p <b>Entidades:</b> 
+          a(href="http://clav.dglab.gov.pt/api/entidades/"+leg.entidade+"?apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg4NjAwNTQsImV4cCI6MTU4MTQ1MjA1NH0.HIlH4_Ao6504qaLhhbZ2_OtDzaZaG5FeYy-Yc2d9lwQ")= leg.entidades
+
+
+  .w3-card-4
+    h2.w3-center Lista dos processos Regulados
+    table.w3-table-all
+        tr
+            th.w3-center Código
+            th.w3-center Titulo
+        each p in pro
+            tr
+                td.w3-center
+                  a(href="http://clav.dglab.gov.pt/classes/"+p.codigo+"?apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg4NjAwNTQsImV4cCI6MTU4MTQ1MjA1NH0.HIlH4_Ao6504qaLhhbZ2_OtDzaZaG5FeYy-Yc2d9lwQ")= p.codigo
+                td.w3-center= p.titulo
+
+
+    footer.w3-card-4.w3-blue-grey
+      a.w3-large(class='w3-button' href='/') <b>Voltar</b>
+
+
